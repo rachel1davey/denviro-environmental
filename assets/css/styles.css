@@ -21,4 +21,8 @@
     background-color: #7CF0BD;
   }
 
+  .gradient-bg {
+    background: linear-gradient(90deg,rgba(30, 143, 36, 1) 50%, rgba(83, 237, 147, 1) 100%);
+  }
+
   
