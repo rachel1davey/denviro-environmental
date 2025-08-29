@@ -64,3 +64,89 @@
 .linkedin:hover {
   background-color: #005983 !important;
 }
+
+  /* Container grid */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 3rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Card styling */
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Image with fixed aspect ratio */
+  .card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  /* Card body */
+  .card-body {
+    padding: 1.5rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .card-body h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2a4d14;
+  }
+
+  .card-body p {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+    color: #444;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  /* Custom button */
+  .btn-custom {
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #4bbd7a; /* slightly darker green */
+  outline: none;
+}
