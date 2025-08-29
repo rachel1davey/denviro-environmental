@@ -1,28 +1,67 @@
-   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-   :root {
-     --primary: #67E0A3;
-     --secondary: #7CF0BD;
-     font-family:'Work Sans', sans-serif;
-  }
-  
-  .navbar-green {
-    background-color:#2A4D14; 
-  }
-  .background-color {
-    background-color: #317B22;
-  }
+:root {
+  --primary: #67E0A3;
+  --secondary: #7CF0BD;
+}
 
-  .primary-btn {
-    background-color: #67E0A3;
-  }
+body {
+  font-family: 'Work Sans', sans-serif;
+}
 
-  .secondary-btn {
-    background-color: #7CF0BD;
-  }
+.navbar-green {
+  background-color: #2A4D14; 
+}
 
-  .gradient-bg {
-    background: linear-gradient(90deg,rgba(30, 143, 36, 1) 50%, rgba(83, 237, 147, 1) 100%);
-  }
+.background-color {
+  background-color: #317B22;
+}
 
-  
+.primary-btn {
+  background-color: var(--primary);
+  color: #000;
+}
+
+.primary-btn:hover {
+  background-color: #52c290;
+}
+
+.secondary-btn {
+  background-color: var(--secondary);
+  color: #000;
+}
+
+.secondary-btn:hover {
+  background-color: #64d8aa;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgba(30, 143, 36, 1) 50%, rgba(83, 237, 147, 1) 100%) !important;
+}
+
+.email {
+  background-color: #EA4335 !important;
+  color: white !important;
+}
+
+.email:hover {
+  background-color: #d93c2d !important;
+}
+
+.call {
+  background-color: #28A745 !important;
+  color: white !important;
+}
+
+.call:hover {
+  background-color: #218838 !important;
+}
+
+.linkedin {
+  background: #0077B5 !important;
+  color: white !important;
+}
+
+.linkedin:hover {
+  background-color: #005983 !important;
+}
