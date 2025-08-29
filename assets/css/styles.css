@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --primary: #67E0A3;
-  --secondary: #7CF0BD;
+    --primary: #67E0A3;
+    --secondary: #7CF0BD;
+    font-family: 'Work Sans', sans-serif;
 }
 
-body {
-  font-family: 'Work Sans', sans-serif;
-}
+
 
 .navbar-green {
   background-color: #2A4D14; 
